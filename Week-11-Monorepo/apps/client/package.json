@@ -1,0 +1,28 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "axios": "^1.6.7",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.1",
+    "next": "14.1.2",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "db": "*",
+    "typescript": "^5",
+    "ui": "*"
+  }
+}
