@@ -4,7 +4,7 @@ import { ReactNode } from "react";
 import{useState} from "react"
 
 export const Signup = (props:{
-    onclick:(username:string , password:string)=>void
+    onclick:(email:string , password:string)=>void
 }) => {
     const [email , setEmail]= useState("")
     const [password , setPassword]=useState("")

@@ -13,9 +13,9 @@ export default function Home() {
     <>
     Hello world
     <Signup onclick={
-        async (username,password)=>{
-        const response= await axios.post("/api/signup",{
-            username,
+        async (email,password)=>{
+        const response= await axios.post("/api/auth/signup",{
+            email,
             password
         });
         localStorage.setItem("token",response.data.token);

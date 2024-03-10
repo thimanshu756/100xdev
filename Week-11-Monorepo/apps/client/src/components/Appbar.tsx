@@ -17,6 +17,7 @@ export function Appbar({}) {
     }
 
     if (userEmail) {
+        console.log("userEmail is -->",userEmail);
         return <div style={{
             display: "flex",
             justifyContent: "space-between",
